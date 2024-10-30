@@ -72,9 +72,11 @@ h2 strong {
   margin: 10px 0 10px 20px;
 }
 
-
-
-
+#side-content {
+  min-height: 150px;
+  width: 200px;
+  float: left;
+}
 
 #main-nav {
 	float: left;
@@ -102,4 +104,19 @@ h2 strong {
   display: block;
   text-decoration: none;
   color: #ccc;
+}
+
+#main-nav ul li a:hover {
+  background-color: #ccc;
+  color: #333;
+}
+
+#center {
+  width: 960px;
+  text-align: center;
+}
+
+strong {
+  font-weight: 900;
+  font-size: 48px;
 }
