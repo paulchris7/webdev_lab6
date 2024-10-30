@@ -9,9 +9,10 @@ body {
   border-radius: 12px 12px 0px 0px; 
 }
 
-#content-wrapper {
-	background-image: url("../images/repeating.png");
-	float: left;
+#header {
+  position: relative;
+  margin-top: 40px;
+  border-radius: 12px 12px 0px 0px; 
 }
 
 #header h1 { 
@@ -21,6 +22,11 @@ body {
 	font-size: 3em;
 	font-family: 'Devonshire', cursive;
 	color: #E35335;
+}
+
+#content-wrapper {
+	background-image: url("../images/repeating.png");
+	float: left;
 }
 
 #header a#logo1 img {
