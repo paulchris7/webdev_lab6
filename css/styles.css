@@ -1,3 +1,17 @@
 body {
 	background-image: url("../images/black.jpg");
 }
+
+#content-wrapper {
+	background-image: url("../images/repeating.png");
+	float: left;
+}
+
+#header h1 { 
+	position: absolute;
+	left: 420px;
+	top:5px;
+	font-size: 3em;
+	font-family: 'Devonshire', cursive;
+	color: #E35335;
+}
